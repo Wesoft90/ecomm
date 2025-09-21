@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 
 const Card = (props) => {
 
-    console.log(props)
+    // console.log(props)
     // let course = props.course;
     let {course,institute} = props;
     // console.log(course)

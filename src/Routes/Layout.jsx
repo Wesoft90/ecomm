@@ -9,6 +9,8 @@ import Products from '../pages/Products';
 import Contact from '../pages/Contact';
 import Login from '../pages/Login';
 import Register from '../pages/Register';
+import Effects from '../pages/Effects';
+import ChildParent from '../pages/ChildParent';
 
 const router = createBrowserRouter([
     {
@@ -46,7 +48,15 @@ const router = createBrowserRouter([
         path:"/register",
         element:<Register />
     }, 
-    ]},   
+    {
+        path:"/effect",
+        element:<Effects />
+    },
+    {
+        path:"/childparent",
+        element:<ChildParent/>
+    }
+]},   
     
     {
         path:"*",

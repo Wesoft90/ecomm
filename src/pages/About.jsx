@@ -11,9 +11,11 @@ const About = () => {
   const change1 = ()=>{
       setData("Python Developer")
   }
+
   const change2 = ()=>{
       setPrice(12000)
   }
+  
   const change3 = ()=>{
     setQuantity(quantity+1);
   }

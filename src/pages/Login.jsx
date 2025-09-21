@@ -2,17 +2,18 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 
 const Login = () => {
-  const [email,setEmail] = useState(' ');
-  const [pass,setPass] = useState(' ');
+  const [email,setEmail] = useState('');
+  const [pass,setPass] = useState('');
 
 const handelSubmit = (e)=>{
   e.preventDefault();
   console.log(email,pass);
   setEmail('');
-  setPass(' ');
+  setPass('');
 }
   return ( <StyledWrapper>
-    {console.log(email,pass)}
+    {/* {console.log(email,pass)} */}
+    
       <div className="form-container m-auto mt-20">
         <p className="title">Login</p>
         <form className="form" onSubmit={handelSubmit}>
